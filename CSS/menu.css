@@ -1,6 +1,4 @@
-/* ========================================
-   GLOBAL
-======================================== */
+
 
 * {
     padding: 0px;
@@ -28,9 +26,7 @@ a {
 }
 
 
-/* ========================================
-   HEADER / NAVBAR
-======================================== */
+
 
 .navbar {
     width: 100%;
@@ -71,9 +67,7 @@ a {
 }
 
 
-/* ========================================
-   LOGO
-======================================== */
+
 
 .logo {
     font-size: 28px;
@@ -91,9 +85,7 @@ a {
 }
 
 
-/* ========================================
-   NAVIGATION LINKS
-======================================== */
+
 
 .nav-links {
     display: flex;
@@ -127,9 +119,7 @@ a {
 }
 
 
-/* ========================================
-   LOGIN / SIGN UP
-======================================== */
+
 
 .nav-actions {
     display: flex;
@@ -182,12 +172,10 @@ a {
 }
 
 
-/* ========================================
-   HOME IMAGE
-======================================== */
+
 
 .homeimage {
-    height: 400px;
+    height: 500px;
 
     width: 100%;
 
@@ -199,9 +187,7 @@ a {
 }
 
 
-/* ========================================
-   MAIN HEADING SECTION
-======================================== */
+
 
 .heading {
     height: 500px;
@@ -232,18 +218,14 @@ a {
 }
 
 
-/* ========================================
-   RADIO BUTTONS
-======================================== */
+
 
 .heading input {
     display: none;
 }
 
 
-/* ========================================
-   CATEGORIES
-======================================== */
+
 
 .categories {
     width: 90%;
@@ -288,9 +270,7 @@ a {
 }
 
 
-/* ========================================
-   FOOD IMAGES
-======================================== */
+
 
 .food {
     width: 90%;
@@ -314,9 +294,7 @@ a {
 }
 
 
-/* ========================================
-   CATEGORY SWITCHING
-======================================== */
+
 
 input[type="radio"][id="breakfast"]:checked ~ .breakfast-food {
     display: flex;
@@ -338,9 +316,7 @@ input[type="radio"][id="chinese"]:checked ~ .chinese-food {
 }
 
 
-/* ========================================
-   ACTIVE CATEGORY
-======================================== */
+
 
 input[type="radio"][id="breakfast"]:checked ~ .categories label[for="breakfast"] {
     background-color: #f97316;
@@ -378,14 +354,12 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   FOOD IMAGE HOVER
-======================================== */
+
 
 .food1 {
     transition-property: transform;
 
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 
     transition-timing-function: ease-in;
 }
@@ -396,9 +370,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   FOOD CARD CONTAINER
-======================================== */
+
 
 .foodcontainer {
     background-color: #fffaf5;
@@ -418,9 +390,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   MENU HEADING
-======================================== */
+
 
 .main {
     width: 100%;
@@ -438,9 +408,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   MENU CARD
-======================================== */
+
 
 .foodcontainer .card1 {
     width: 350px;
@@ -461,7 +429,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 
     border: 1px solid #f4c7a8;
 
-    box-shadow: 4px 4px 2px rgba(234, 88, 12, 0.15);
+    box-shadow: 4px 4px 8px #f97316;
 
     transition-property: box-shadow;
 
@@ -469,9 +437,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   ITEM NAME
-======================================== */
+
 
 .itemname {
     width: 100%;
@@ -495,9 +461,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   CARD ITEMS
-======================================== */
+
 
 .card1 .item {
     width: 100%;
@@ -516,18 +480,14 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   CARD HOVER
-======================================== */
+
 
 .foodcontainer .card1:hover {
-    box-shadow: 10px 10px 5px rgba(234, 88, 12, 0.20);
+    box-shadow: 20px 20px 10px #f97316;
 }
 
 
-/* ========================================
-   FOOTER
-======================================== */
+
 
 .footer {
     background-color: #222222;
@@ -540,9 +500,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   FOOTER CONTAINER
-======================================== */
+
 
 .footer-container {
     display: grid;
@@ -555,9 +513,6 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   FOOTER ABOUT
-======================================== */
 
 .footer .logo {
     color: white;
@@ -584,9 +539,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   FOOTER LINKS
-======================================== */
+
 
 .footer-links {
     display: flex;
@@ -620,9 +573,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   FOOTER BOTTOM
-======================================== */
+
 
 .footer-bottom {
     border-top: 1px solid #444444;
@@ -640,9 +591,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   RESPONSIVE NAVBAR
-======================================== */
+
 
 @media (max-width: 1100px) {
 
@@ -666,9 +615,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   RESPONSIVE NAVBAR - TABLET
-======================================== */
+
 
 @media (max-width: 850px) {
 
@@ -691,9 +638,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   RESPONSIVE MENU
-======================================== */
+
 
 @media (max-width: 700px) {
 
@@ -734,9 +679,7 @@ input[type="radio"][id="chinese"]:checked ~ .categories label[for="chinese"] {
 }
 
 
-/* ========================================
-   RESPONSIVE FOOTER
-======================================== */
+
 
 @media (max-width: 800px) {
 
